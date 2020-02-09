@@ -6,7 +6,7 @@
     "extends": [
         "eslint:recommended",
         "google",
-        // "react-app"
+        "react-app"
     ],
     "globals": {
         "Atomics": "readonly",
