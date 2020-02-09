@@ -14,13 +14,24 @@
     border-right: 1px solid white;
 }
 
+.menuSelectItem {
+    background-color: transparent;
+    color: white;
+
+}
+
+.menuSelectItem.active {
+    background-color: aqua !important; 
+}
 .menuItemCard {
     background-color: transparent;
-    display: flex;
+    height: 9rem;
+    border: 1px green solid;
 }
 .menuItemImg {
-    width: 95px;
+    width: 25%;
     float: left;
+    height: -webkit-fill-available;
 }
 .menuItemText {
     display: inline;

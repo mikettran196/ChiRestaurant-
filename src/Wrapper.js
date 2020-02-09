@@ -40,7 +40,7 @@ class Wrapper extends Component {
         <NavigationBar currentPage={window.location.pathname}/>
         <Switch>
           <Route exact path ='/' component={Home} />
-          <Route exact path ='/menu' component={Menu} />
+          <Route path ='/menu' component={Menu} />
           <Route exact path ='/location' component={Location} />
           <Route exact path ='/contact' component={Contact} />
           <Route exact path ='/about' component={About} />
