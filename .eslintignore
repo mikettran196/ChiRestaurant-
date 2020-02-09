@@ -1,0 +1,10 @@
+/src/assets/images/**
+/src/assets/scss/**
+/src/**/*.css
+/src/serviceWorker.js
+/src/utils/List.js
+**/node_modules
+**/*.md
+**/*.json
+/build/**
+**/yarn.lock

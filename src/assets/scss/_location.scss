@@ -1,0 +1,72 @@
+.mapImage {
+    max-height: 388px;
+}
+
+.locationHolder {
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    top: 35%;
+    right: 0;
+    width: 75%;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.locationAddressHolder {
+    border-right: 2px solid white;
+}
+
+.mapHolder {
+
+}
+
+.mapImage {
+
+}
+
+.mapTextHolder {
+    margin: auto;
+}
+
+.mapTitle {
+    font-size: calc(10px + 5vmin);
+    padding-right: 50px;
+    font-weight: bolder;
+}
+
+.mapAddress {
+    font-size: calc(10px + 2vmin);
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.mapAddressInfo {
+    font-size: calc(10px + 1vmin);
+    font-weight: 400;
+    padding-right: 50px;
+}
+
+
+.homeAdress {
+    text-align: right;
+    font-size: calc(10px + 2vmin);
+    font-weight: 400;
+    padding-right: 50px;
+}
+
+.locateHoursHolder {
+    margin: auto;
+}
+
+.locateHoursTitle {
+    font-size: calc(10px + 5vmin);
+    font-weight: 700;
+
+}
+
+.locateHoursP {
+    font-size: calc(10px + 2vmin);
+    font-weight: bold;
+}

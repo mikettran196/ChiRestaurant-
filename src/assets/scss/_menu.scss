@@ -1,0 +1,38 @@
+.menuHolder {
+    background-color: rgba(0,0,0,0.85);
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.menuSelectHolder {
+    border-right: 1px solid white;
+}
+
+.menuItemCard {
+    background-color: transparent;
+    display: flex;
+}
+.menuItemImg {
+    width: 95px;
+    float: left;
+}
+.menuItemText {
+    display: inline;
+    padding: 0;
+}
+
+.menuItemTitle {
+    font-size: calc(10px + 1vmin);
+    font-weight: bold;
+}
+
+.menuItemInfo {
+    font-size: calc(5px + 1vmin);
+
+}
