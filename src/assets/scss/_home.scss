@@ -12,30 +12,26 @@
 
 .nameAdressHolder {
     border-right: 2px solid white;
-}
-.homeName {
-    text-align: right;
-    font-size: calc(10px + 5vmin);
-    padding-right: 50px;
-    font-weight: 700;
-
-}
-
-.homeAdress {
-    text-align: right;
-    font-size: calc(10px + 2vmin);
-    font-weight: 400;
-    padding-right: 50px;
+    h1 {
+        text-align: right;
+        font-size: calc(10px + 5vmin);
+        padding-right: 50px;
+        font-weight: 700;
+    }
+    p {
+        text-align: right;
+        font-size: calc(10px + 2vmin);
+        font-weight: 400;
+        padding-right: 50px;
+    }
 }
 
 .hoursHolder {
-}
-
-.hoursTitle {
-    font-size: calc(10px + 3vmin);
-    font-weight: 700;
-}
-
-.hoursP {
-    font-size: calc(10px + 1vmin);
+    h1 {
+        font-size: calc(10px + 3vmin);
+        font-weight: 700;
+    }
+    p {
+        font-size: calc(10px + 1vmin);
+    }
 }

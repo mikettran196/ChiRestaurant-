@@ -25,12 +25,12 @@ class Home extends Component {
           <Jumbotron className={'homeNameHolder'}>
             <Row>
               <Col md={9} className={'nameAdressHolder'}>
-                <h1 className={'homeName'}>Pho Express</h1>
-                <p className={'homeAdress'}>12345 some address dr Houston, TX 77777</p>
+                <h1>Pho Express</h1>
+                <p>12345 some address dr Houston, TX 77777</p>
               </Col>
               <Col md={3} className={'hoursHolder'}>
-                <h1 className={'hoursTitle'}>Hours</h1>
-                <p className={'hoursP'}>Open everday from 9AM to 9PM</p>
+                <h1>Hours</h1>
+                <p>Open everday from 9AM to 9PM</p>
               </Col>
             </Row>
           </Jumbotron>

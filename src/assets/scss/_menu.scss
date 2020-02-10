@@ -17,33 +17,47 @@
 .menuSelectItem {
     background-color: transparent;
     color: white;
+    &.active {
+        background-color: aqua !important; 
+    }
 
 }
 
-.menuSelectItem.active {
-    background-color: aqua !important; 
-}
 .menuItemCard {
     background-color: transparent;
     height: 9rem;
     border: 1px green solid;
+    overflow: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 .menuItemImg {
     width: 25%;
     float: left;
     height: -webkit-fill-available;
 }
+.menuItemCardContent {
+    margin: auto;
+}
 .menuItemText {
     display: inline;
-    padding: 0;
 }
 
-.menuItemTitle {
-    font-size: calc(10px + 1vmin);
-    font-weight: bold;
+.menuItemTextRow {
+    margin: auto;
+    h1 {
+        font-size: calc(10px + 1vmin);
+        font-weight: bold;
+        margin: auto;
+    }
 }
 
 .menuItemInfo {
     font-size: calc(5px + 1vmin);
-
+    max-height: -webkit-fill-available;
+    overflow: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }

@@ -1,13 +1,9 @@
 import React, {Component} from 'react';
-import PhoPic from './assets/images/pho-open-pic2.jpg';
-import {Container, Row, Col, Navbar, Nav, Image, Jumbotron, ListGroup, Button} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import {NavigationBar} from './components';
 import {Switch, Route} from 'react-router-dom';
 import {Home, About, Contact, Location, Menu} from './Pages';
-import PropTypes from 'prop-types';
 
-const propTypes = {
-};
 /**
  * @return {*} Container for wrapper
  */
